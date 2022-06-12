@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway',sans-serif;
+}
+
+body {
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1573486851655-f248b5cbb324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80')no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #71ffd5;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+p {
+  color: #1d1d1d;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  transition: all .4s ease-in;
+  font-size: 1.1rem;
+}
+
+p:hover {
+  color: #81ecff;
+}
+
+
+.btn-xl {
+  padding: 1rem 2rem;
+  background: #71ffd44f;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  border: #71ffd5;
+  transition: all .5s ease-in;
+  font-size: 1.3em;
+}
+
+.btn-xl:hover {
+  background: #71ffd5;
+  color: #000000;
+  transform: translateY(8px);
+  border-radius: 50px;
+}
+
+@media (max-width:992px) {
+  .media {
+    display: none;
+  }
+  p {
+    padding: 1rem;
+  }
+}
+
+@media (max-width:768px) {
+  .media {
+    display: none;
+  }
+  p {
+    padding: 1rem;
+  }
+}
+
+@media (max-width:576px) {
+  .media {
+    display: none;
+  }
+  p {
+    padding: 1rem;
+    color: #fd0425;
+  }
+}
